@@ -407,7 +407,7 @@ var zoomPlugin = {
 				event.preventDefault();
 			};
 
-			node.addEventListener('wheel', chartInstance.zoom._wheelHandler);
+			// node.addEventListener('wheel', chartInstance.zoom._wheelHandler);
 		}
 
 		if (Hammer) {
